@@ -1,0 +1,51 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Apply these settings to all files
+[*]
+# Unix-style newlines with LF
+end_of_line = lf
+# UTF-8 encoding
+charset = utf-8
+# Trim any trailing whitespace
+trim_trailing_whitespace = true
+# Insert final newline at the end of files
+insert_final_newline = true
+# Indent using spaces
+indent_style = space
+# Set default indentation size
+indent_size = 4
+
+# Specific settings for Go files
+[*.go]
+# Use tabs in Go code
+indent_style = tab
+# Tab width in Go files
+tab_width = 4
+
+# Specific settings for Makefile
+[Makefile]
+# Use tabs for indentation in Makefiles
+indent_style = tab
+
+# Specific settings for markdown files
+[*.md]
+# Use spaces in markdown files
+indent_style = space
+# Set indentation size to 2 in markdown
+indent_size = 2
+
+# Specific settings for JSON and YAML files
+[*.{json,yml,yaml}]
+# Use spaces in JSON/YAML files
+indent_style = space
+# Set indentation size to 2 in JSON/YAML files
+indent_size = 2
+
+# Specific settings for .editorconfig itself
+[*.editorconfig]
+# Set indentation size to 2 for editorconfig file
+indent_size = 2
+
