@@ -1,0 +1,18 @@
+{
+  "width": 1302,
+  "height": 1302,
+  "tile_size": {
+    "width": 24,
+    "height": 24
+  },
+  "gap_size": 2,
+  "sprites": [
+    {
+      "name": "player_male_miner",
+      "position": {
+        "row": 0,
+        "column": 25
+      }
+    }
+  ]
+}
